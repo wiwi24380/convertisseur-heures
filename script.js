@@ -114,7 +114,7 @@ function convertHMToDec(raw) {
     minutes = parseInt(minPart.substring(0, 2), 10);
   }
 
-  if (isNaN(minutes) || minutes > 59) {
+  if (isNaN(minutes) || {
     shake(); resetResult(); return;
   }
 
