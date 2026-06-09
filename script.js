@@ -119,7 +119,7 @@ function convertHMToDec(raw) {
   }
 
   const decimal   = heures + (minutes / 60);
-  const formatted = parseFloat(decimal.toFixed(4)).toString().replace('.', ',') + ' h';
+  const formatted = parseFloat(decimal.toFixed(2)).toString().replace('.', ',') + ' h';
   showResult(formatted, '');
 }
 
